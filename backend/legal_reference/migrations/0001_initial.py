@@ -7,17 +7,24 @@ class Migration(migrations.Migration):
 
     initial = True
 
-    dependencies = [
-    ]
+    dependencies = []
 
     operations = [
         migrations.CreateModel(
-            name='Local_data',
+            name="Local_data",
             fields=[
-                ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('county', models.TextField()),
-                ('state', models.TextField(blank=True, null=True)),
-                ('risk', models.IntegerField(blank=True, null=True)),
+                (
+                    "id",
+                    models.AutoField(
+                        auto_created=True,
+                        primary_key=True,
+                        serialize=False,
+                        verbose_name="ID",
+                    ),
+                ),
+                ("county", models.TextField()),
+                ("state", models.TextField(blank=True, null=True)),
+                ("risk", models.IntegerField(blank=True, null=True)),
             ],
         ),
     ]
