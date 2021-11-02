@@ -947,7 +947,7 @@
     "@types/yargs" "^15.0.0"
     chalk "^4.0.0"
 
-"@modules/login@file:./modules/login/":
+"@modules/login@file:./modules/login":
   version "1.0.0"
   dependencies:
     "@react-navigation/native" "^5.9.2"
@@ -961,6 +961,9 @@
   version "1.0.1"
   dependencies:
     react-native-render-html "^5.1.0"
+
+"@modules/splash@file:./modules/splash/":
+  version "1.0.0"
 
 "@react-native-community/cli-debugger-ui@^5.0.1":
   version "5.0.1"
